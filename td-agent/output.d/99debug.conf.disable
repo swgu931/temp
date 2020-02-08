@@ -1,0 +1,4 @@
+<match **>
+  @type stdout
+  @id output_stdout
+</match>

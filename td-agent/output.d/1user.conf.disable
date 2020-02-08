@@ -1,0 +1,9 @@
+<match system.user.*>
+    @type file
+    path  /var/log/td-agent/user.log
+    <buffer>
+        @type memory
+        flush_mode immediate 
+    </buffer>
+</match>
+

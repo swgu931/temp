@@ -1,0 +1,5 @@
+<match system.{auth,authpriv}.*>
+    @type file
+    path  /var/log/td-agent/auth.log
+    compress gzip
+</match>
